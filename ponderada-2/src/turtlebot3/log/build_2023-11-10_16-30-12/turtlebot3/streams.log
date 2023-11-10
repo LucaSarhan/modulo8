@@ -1,0 +1,22 @@
+[0.465s] Invoking command in '/home/luca/modulo8/ponderada-2/src/turtlebot3': PYTHONPATH=/home/luca/modulo8/ponderada-2/src/turtlebot3/build/turtlebot3/prefix_override:/home/luca/modulo8/ponderada-2/src/turtlebot3/install/turtlebot3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlebot3 build --build-base /home/luca/modulo8/ponderada-2/src/turtlebot3/build/turtlebot3/build install --record /home/luca/modulo8/ponderada-2/src/turtlebot3/build/turtlebot3/install.log --single-version-externally-managed
+[0.612s] running egg_info
+[0.613s] writing build/turtlebot3/turtlebot3.egg-info/PKG-INFO
+[0.613s] writing dependency_links to build/turtlebot3/turtlebot3.egg-info/dependency_links.txt
+[0.613s] writing entry points to build/turtlebot3/turtlebot3.egg-info/entry_points.txt
+[0.613s] writing requirements to build/turtlebot3/turtlebot3.egg-info/requires.txt
+[0.613s] writing top-level names to build/turtlebot3/turtlebot3.egg-info/top_level.txt
+[0.614s] reading manifest file 'build/turtlebot3/turtlebot3.egg-info/SOURCES.txt'
+[0.614s] writing manifest file 'build/turtlebot3/turtlebot3.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.615s] running install
+[0.615s] running install_lib
+[0.615s] running install_data
+[0.616s] copying launch/movementlaunch.py -> /home/luca/modulo8/ponderada-2/src/turtlebot3/install/turtlebot3/share/turtlebot3/launch
+[0.616s] running install_egg_info
+[0.617s] removing '/home/luca/modulo8/ponderada-2/src/turtlebot3/install/turtlebot3/lib/python3.10/site-packages/turtlebot3-0.0.0-py3.10.egg-info' (and everything under it)
+[0.617s] Copying build/turtlebot3/turtlebot3.egg-info to /home/luca/modulo8/ponderada-2/src/turtlebot3/install/turtlebot3/lib/python3.10/site-packages/turtlebot3-0.0.0-py3.10.egg-info
+[0.617s] running install_scripts
+[0.631s] Installing turtlebot3 script to /home/luca/modulo8/ponderada-2/src/turtlebot3/install/turtlebot3/lib/turtlebot3
+[0.631s] writing list of installed files to '/home/luca/modulo8/ponderada-2/src/turtlebot3/build/turtlebot3/install.log'
+[0.649s] Invoked command in '/home/luca/modulo8/ponderada-2/src/turtlebot3' returned '0': PYTHONPATH=/home/luca/modulo8/ponderada-2/src/turtlebot3/build/turtlebot3/prefix_override:/home/luca/modulo8/ponderada-2/src/turtlebot3/install/turtlebot3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlebot3 build --build-base /home/luca/modulo8/ponderada-2/src/turtlebot3/build/turtlebot3/build install --record /home/luca/modulo8/ponderada-2/src/turtlebot3/build/turtlebot3/install.log --single-version-externally-managed
