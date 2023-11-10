@@ -1,0 +1,36 @@
+[2.133s] Invoking command in '/home/luca/modulo8/ponderada-2/src/chatbot': PYTHONPATH=/home/luca/modulo8/ponderada-2/build/chatbot/prefix_override:/home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/luca/modulo8/ponderada-2/build/chatbot/build install --record /home/luca/modulo8/ponderada-2/build/chatbot/install.log --single-version-externally-managed
+[2.572s] running egg_info
+[2.573s] creating ../../build/chatbot/chatbot.egg-info
+[2.573s] writing ../../build/chatbot/chatbot.egg-info/PKG-INFO
+[2.573s] writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt
+[2.574s] writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt
+[2.574s] writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt
+[2.574s] writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt
+[2.574s] writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[2.577s] reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[2.578s] writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[2.578s] running build
+[2.579s] running build_py
+[2.579s] creating /home/luca/modulo8/ponderada-2/build/chatbot/build
+[2.579s] creating /home/luca/modulo8/ponderada-2/build/chatbot/build/lib
+[2.579s] creating /home/luca/modulo8/ponderada-2/build/chatbot/build/lib/chatbot
+[2.580s] copying chatbot/__init__.py -> /home/luca/modulo8/ponderada-2/build/chatbot/build/lib/chatbot
+[2.580s] copying chatbot/chatbot.py -> /home/luca/modulo8/ponderada-2/build/chatbot/build/lib/chatbot
+[2.580s] running install
+[2.582s] running install_lib
+[2.582s] creating /home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages/chatbot
+[2.582s] copying /home/luca/modulo8/ponderada-2/build/chatbot/build/lib/chatbot/__init__.py -> /home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages/chatbot
+[2.582s] copying /home/luca/modulo8/ponderada-2/build/chatbot/build/lib/chatbot/chatbot.py -> /home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages/chatbot
+[2.583s] byte-compiling /home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc
+[2.584s] byte-compiling /home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages/chatbot/chatbot.py to chatbot.cpython-310.pyc
+[2.584s] running install_data
+[2.585s] creating /home/luca/modulo8/ponderada-2/install/chatbot/share/ament_index
+[2.585s] creating /home/luca/modulo8/ponderada-2/install/chatbot/share/ament_index/resource_index
+[2.585s] creating /home/luca/modulo8/ponderada-2/install/chatbot/share/ament_index/resource_index/packages
+[2.585s] copying resource/chatbot -> /home/luca/modulo8/ponderada-2/install/chatbot/share/ament_index/resource_index/packages
+[2.585s] copying package.xml -> /home/luca/modulo8/ponderada-2/install/chatbot/share/chatbot
+[2.586s] running install_egg_info
+[2.587s] Copying ../../build/chatbot/chatbot.egg-info to /home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info
+[2.588s] running install_scripts
+[2.622s] writing list of installed files to '/home/luca/modulo8/ponderada-2/build/chatbot/install.log'
+[2.670s] Invoked command in '/home/luca/modulo8/ponderada-2/src/chatbot' returned '0': PYTHONPATH=/home/luca/modulo8/ponderada-2/build/chatbot/prefix_override:/home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/luca/modulo8/ponderada-2/build/chatbot/build install --record /home/luca/modulo8/ponderada-2/build/chatbot/install.log --single-version-externally-managed

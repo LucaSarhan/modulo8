@@ -1,0 +1,37 @@
+[0.784s] Invoking command in '/home/luca/modulo8/ponderada-2/src/turtlebot3': PYTHONPATH=/home/luca/modulo8/ponderada-2/src/build/turtlebot3/prefix_override:/home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtlebot3 build --build-base /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build install --record /home/luca/modulo8/ponderada-2/src/build/turtlebot3/install.log --single-version-externally-managed
+[0.963s] running egg_info
+[0.963s] creating ../build/turtlebot3/turtlebot3.egg-info
+[0.964s] writing ../build/turtlebot3/turtlebot3.egg-info/PKG-INFO
+[0.964s] writing dependency_links to ../build/turtlebot3/turtlebot3.egg-info/dependency_links.txt
+[0.964s] writing entry points to ../build/turtlebot3/turtlebot3.egg-info/entry_points.txt
+[0.964s] writing requirements to ../build/turtlebot3/turtlebot3.egg-info/requires.txt
+[0.964s] writing top-level names to ../build/turtlebot3/turtlebot3.egg-info/top_level.txt
+[0.964s] writing manifest file '../build/turtlebot3/turtlebot3.egg-info/SOURCES.txt'
+[0.965s] reading manifest file '../build/turtlebot3/turtlebot3.egg-info/SOURCES.txt'
+[0.966s] writing manifest file '../build/turtlebot3/turtlebot3.egg-info/SOURCES.txt'
+[0.966s] running build
+[0.966s] running build_py
+[0.966s] creating /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build
+[0.966s] creating /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build/lib
+[0.967s] creating /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build/lib/turtlebot3
+[0.967s] copying turtlebot3/__init__.py -> /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build/lib/turtlebot3
+[0.967s] copying turtlebot3/turtlebot3.py -> /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build/lib/turtlebot3
+[0.968s] running install
+[0.968s] running install_lib
+[0.968s] creating /home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/python3.10/site-packages/turtlebot3
+[0.968s] copying /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build/lib/turtlebot3/__init__.py -> /home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/python3.10/site-packages/turtlebot3
+[0.968s] copying /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build/lib/turtlebot3/turtlebot3.py -> /home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/python3.10/site-packages/turtlebot3
+[0.969s] byte-compiling /home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/python3.10/site-packages/turtlebot3/__init__.py to __init__.cpython-310.pyc
+[0.969s] byte-compiling /home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/python3.10/site-packages/turtlebot3/turtlebot3.py to turtlebot3.cpython-310.pyc
+[0.969s] running install_data
+[0.969s] creating /home/luca/modulo8/ponderada-2/src/install/turtlebot3/share/ament_index
+[0.969s] creating /home/luca/modulo8/ponderada-2/src/install/turtlebot3/share/ament_index/resource_index
+[0.969s] creating /home/luca/modulo8/ponderada-2/src/install/turtlebot3/share/ament_index/resource_index/packages
+[0.969s] copying resource/turtlebot3 -> /home/luca/modulo8/ponderada-2/src/install/turtlebot3/share/ament_index/resource_index/packages
+[0.970s] copying package.xml -> /home/luca/modulo8/ponderada-2/src/install/turtlebot3/share/turtlebot3
+[0.970s] running install_egg_info
+[0.971s] Copying ../build/turtlebot3/turtlebot3.egg-info to /home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/python3.10/site-packages/turtlebot3-0.0.0-py3.10.egg-info
+[0.971s] running install_scripts
+[0.986s] Installing turtlebot3 script to /home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/turtlebot3
+[0.987s] writing list of installed files to '/home/luca/modulo8/ponderada-2/src/build/turtlebot3/install.log'
+[1.044s] Invoked command in '/home/luca/modulo8/ponderada-2/src/turtlebot3' returned '0': PYTHONPATH=/home/luca/modulo8/ponderada-2/src/build/turtlebot3/prefix_override:/home/luca/modulo8/ponderada-2/src/install/turtlebot3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtlebot3 build --build-base /home/luca/modulo8/ponderada-2/src/build/turtlebot3/build install --record /home/luca/modulo8/ponderada-2/src/build/turtlebot3/install.log --single-version-externally-managed
