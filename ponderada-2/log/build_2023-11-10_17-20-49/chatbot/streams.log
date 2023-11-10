@@ -1,0 +1,20 @@
+[1.008s] Invoking command in '/home/luca/modulo8/ponderada-2/src/chatbot': PYTHONPATH=/home/luca/modulo8/ponderada-2/build/chatbot/prefix_override:/home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/luca/modulo8/ponderada-2/build/chatbot/build install --record /home/luca/modulo8/ponderada-2/build/chatbot/install.log --single-version-externally-managed
+[1.232s] running egg_info
+[1.233s] writing ../../build/chatbot/chatbot.egg-info/PKG-INFO
+[1.233s] writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt
+[1.233s] writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt
+[1.234s] writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt
+[1.234s] writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt
+[1.237s] reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[1.238s] writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'
+[1.238s] running build
+[1.239s] running build_py
+[1.239s] running install
+[1.239s] running install_lib
+[1.240s] running install_data
+[1.241s] running install_egg_info
+[1.242s] removing '/home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.243s] Copying ../../build/chatbot/chatbot.egg-info to /home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info
+[1.244s] running install_scripts
+[1.263s] writing list of installed files to '/home/luca/modulo8/ponderada-2/build/chatbot/install.log'
+[1.290s] Invoked command in '/home/luca/modulo8/ponderada-2/src/chatbot' returned '0': PYTHONPATH=/home/luca/modulo8/ponderada-2/build/chatbot/prefix_override:/home/luca/modulo8/ponderada-2/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/luca/modulo8/ponderada-2/build/chatbot/build install --record /home/luca/modulo8/ponderada-2/build/chatbot/install.log --single-version-externally-managed
