@@ -15,4 +15,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtlebot3/__init__.py
+turtlebot3/teleop.py
 turtlebot3/turtlebot3.py
