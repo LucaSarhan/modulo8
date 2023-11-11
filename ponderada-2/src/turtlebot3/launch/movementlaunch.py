@@ -10,7 +10,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             [os.path.join(get_package_share_directory('turtlebot3_navigation2'), 'launch'), '/navigation2.launch.py']
         ),
-        launch_arguments={'use_sim_time': 'True', 'map': 'my-map.yaml'}.items(),
+        launch_arguments={'use_sim_time': 'True', 'map': 'teste.yaml'}.items(),
     )
     turtlebot3_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -26,7 +26,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        turtlebot3_gazebo,
         turtlebot3_navigation2,
+        turtlebot3_gazebo,
         turtlebot3_turtlebot3
     ])
