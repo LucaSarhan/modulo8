@@ -43,7 +43,7 @@ O mapeamento do mundo funciona da seguinte maneira:
 
 O estágio inicial do Turtlebot implica na geração do mapa do ambiente virtual. Para realizar essa operação, procederemos à execução de um arquivo de lançamento:
 ```
-ros2 launch pond2 launch.py
+ros2 launch ponderada-2 launch.py
 ```
 
 Um arquivo de lançamento é responsável por iniciar vários pacotes/nós simultaneamente. O 'mapping_launch.py' ativa o 'turtlebot3_cartographer', 'turtlebot3_gazebo' e 'turtlebot3_teleop' os quais desempenham funções como mapeamento, simulação do ambiente e do robô, controle da movimentação e salvamento do mapa, respectivamente.
