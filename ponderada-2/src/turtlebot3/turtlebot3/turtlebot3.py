@@ -24,15 +24,15 @@ def main():
     nav = BasicNavigator()
     nav.waitUntilNav2Active()
 
-    initial_pose = create_pose_stamped(nav, 0.0, 0.0)
+    pose_initial = create_pose_stamped(nav, 0.0, 0.0)
 
-    nav.setInitialPose(initial_pose)
+    nav.setInitialPose(pose_initial)
     
     waypoints = [
     create_pose_stamped(nav, 2.5, 0.0),
     create_pose_stamped(nav, 2.0, 1.0),
     create_pose_stamped(nav, 0.0, 1.0),
-    initial_pose
+    pose_initial
     ]
 
     nav.followWaypoints(waypoints)
