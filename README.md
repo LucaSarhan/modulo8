@@ -56,7 +56,7 @@ A navegação pelo mundo funciona da seguinte maneira:
 A segunda e última etapa do Turtlebot é a navegação pelo mapa. Utilize o seguinte comando para rodar o próximo launchfile no mesmo diretório em que está o seu mapa salvo:
 
 ```
-ros2 launch ponderada-2 launch.py
+ros2 launch ponderada-2 movementlaunch.py
 ```
 
 O `movementlaunch.py` ativa o `turtlebot3_navigation2`, `turtlebot3_gazebo` e `turtlebot3`, encarregados de navegar pelo mapa designado, simular o ambiente e enviar as coordenadas de deslocamento, respectivamente.
