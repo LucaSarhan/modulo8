@@ -22,6 +22,7 @@ def generate_launch_description():
         package='turtlebot3',
         executable='turtlebot3',
         name='turtlebot3',
+        prefix = 'gnome-terminal --',
         output='screen'
     )
 
