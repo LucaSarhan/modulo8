@@ -53,7 +53,7 @@ O estágio inicial do Turtlebot implica na geração do mapa do ambiente virtual
 ros2 launch pond2 launch.py
 ```
 
-Um arquivo de lançamento é responsável por iniciar vários pacotes/nós simultaneamente. O mapping_launch.py ativa o turtlebot3_cartographer, turtlebot3_gazebo, turtlebot3_teleop, e pond2_teleop, os quais desempenham funções como mapeamento, simulação do ambiente e do robô, controle da movimentação e salvamento do mapa, respectivamente.
+Um arquivo de lançamento é responsável por iniciar vários pacotes/nós simultaneamente. O 'mapping_launch.py' ativa o 'turtlebot3_cartographer', 'turtlebot3_gazebo' e 'turtlebot3_teleop' os quais desempenham funções como mapeamento, simulação do ambiente e do robô, controle da movimentação e salvamento do mapa, respectivamente.
 
 Ao focalizar o terminal turtlebot3_teleop, movimente o robô de maneira sistemática até que o mapa exibido no simulador Rviz esteja completamente preenchido. Posteriormente, alterne para o terminal do pond2_teleop e salve o mapa conforme as instruções fornecidas (o programa salvará o mapa no diretório em que você executou o mapping_launch.py).
 
@@ -67,8 +67,8 @@ ros2 launch ponderada-2 launch.py
 
 O `movementlaunch.py` ativa o `turtlebot3_navigation2`, `turtlebot3_gazebo` e `turtlebot3`, encarregados de navegar pelo mapa designado, simular o ambiente e enviar as coordenadas de deslocamento, respectivamente.
 
-### Vídeo do Tartabot!
-Você pode conferir o funcionamento do Tartabot no vídeo a seguir:
+### Vídeo do Tartulebot
 
+Verifique o turtlebot funcionando no video abaixo: https://drive.google.com/file/d/1Sr-6pCcZDMgd41SRd1XOx6BvDoiqvDM2/view?usp=sharing
 
 
