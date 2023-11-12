@@ -34,12 +34,12 @@ colcon build --packages-select pondederada-2
 source install/local_setup.bash #se estiver usando zsh, mude para setup.zsh
 ```
 
-## Turtlebot em Ação
+## Funcionamento do Turtlebot
 
 O Turtlebot opera em duas fases distintas. Inicialmente, ocorre a etapa de mapeamento do ambiente, permitindo que o robô adquira conhecimento sobre o espaço. Em seguida, é iniciada a fase de navegação, durante a qual o robô percorre pontos específicos previamente definidos no mapa.
 
 
-### Mapeamento do Mundo:
+O mapeamento do mundo funciona da seguinte maneira:
 
 O estágio inicial do Turtlebot implica na geração do mapa do ambiente virtual. Para realizar essa operação, procederemos à execução de um arquivo de lançamento:
 ```
@@ -51,7 +51,8 @@ Um arquivo de lançamento é responsável por iniciar vários pacotes/nós simul
 Ao focalizar o terminal turtlebot3_teleop, movimente o robô de maneira sistemática até que o mapa exibido no simulador Rviz esteja completamente preenchido. Posteriormente, alterne para o terminal do pond2_teleop e salve o mapa conforme as instruções fornecidas (o programa salvará o mapa no diretório em que você executou o mapping_launch.py).
 
 
-### Navegando pelo Mundo
+A navegação pelo mundo funciona da seguinte maneira:
+
 A segunda e última etapa do Turtlebot é a navegação pelo mapa. Utilize o seguinte comando para rodar o próximo launchfile no mesmo diretório em que está o seu mapa salvo:
 
 ```
