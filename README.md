@@ -34,6 +34,11 @@ colcon build --packages-select turtlebot3
 source install/local_setup.bash #se estiver usando zsh, mude para setup.zsh
 ```
 
+O comando para salvar o mapa é o seguinte:
+```
+ros2 run nav2_map_server map_saver_cli -f <nome-do-mapa>
+```
+
 ## Funcionamento do Turtlebot
 
 O Turtlebot opera em duas fases distintas. Inicialmente, ocorre a etapa de mapeamento do ambiente, permitindo que o robô adquira conhecimento sobre o espaço. Em seguida, é iniciada a fase de navegação, durante a qual o robô percorre pontos específicos previamente definidos no mapa.
@@ -61,7 +66,7 @@ ros2 launch turtlebot3 movementlaunch.py
 
 O `movementlaunch.py` ativa o `turtlebot3_navigation2`, `turtlebot3_gazebo` e `turtlebot3`, encarregados de navegar pelo mapa designado, simular o ambiente e enviar as coordenadas de deslocamento, respectivamente.
 
-### Vídeo do Tartulebot
+### Vídeo do Turtlebot
 
 Verifique o turtlebot funcionando no video a seguir: https://drive.google.com/file/d/1Sr-6pCcZDMgd41SRd1XOx6BvDoiqvDM2/view?usp=sharing
 
