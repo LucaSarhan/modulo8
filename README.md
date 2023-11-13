@@ -4,7 +4,7 @@ O Turtlebot foi desenvolvido para realizar o mapeamento de ambientes e posterior
 
 ## Instalação do Pacote ROS
 
-Para instalar o pacote "ponderada-2", responsável pelas funcionalidades do Turtlebot, é necessário seguir as etapas a seguir.
+Para instalar o pacote "turtlebot3", responsável pelas funcionalidades do Turtlebot, é necessário seguir as etapas a seguir.
 
 Temos 3 prérequisitos para o funcionamento correto: Ubuntu, ROS e Nav2
 
