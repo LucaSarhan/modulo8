@@ -63,6 +63,6 @@ O `movementlaunch.py` ativa o `turtlebot3_navigation2`, `turtlebot3_gazebo` e `t
 
 ### Vídeo do Tartulebot
 
-Verifique o turtlebot funcionando no video abaixo: https://drive.google.com/file/d/1Sr-6pCcZDMgd41SRd1XOx6BvDoiqvDM2/view?usp=sharing
+Verifique o turtlebot funcionando no video a seguir: https://drive.google.com/file/d/1Sr-6pCcZDMgd41SRd1XOx6BvDoiqvDM2/view?usp=sharing
 
-
+Verifique o turtlebot mapeando no video a seguir: https://drive.google.com/file/d/1qlAJ2orPShuYH0EF0tue0Fsh0sAUXS_8/view?usp=sharing
