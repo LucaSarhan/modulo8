@@ -30,7 +30,7 @@ rosdep install -i --from-path src --rosdistro humble -y
 A fim de garantir o funcionamento adequado do pacote, é crucial realizar a compilação para atualizá-lo à sua versão mais recente e configurar as variáveis correspondentes para que o ROS possa aproveitar plenamente suas funcionalidades.
 
 ```
-colcon build --packages-select pondederada-2
+colcon build --packages-select turtlebot3
 source install/local_setup.bash #se estiver usando zsh, mude para setup.zsh
 ```
 
