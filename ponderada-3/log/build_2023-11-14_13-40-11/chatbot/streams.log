@@ -1,0 +1,28 @@
+[0.460s] Invoking command in '/home/luca/modulo8/ponderada-3/src/chatbot': PYTHONPATH=/home/luca/modulo8/ponderada-3/build/chatbot/prefix_override:/home/luca/modulo8/ponderada-3/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/luca/modulo8/ponderada-3/build/chatbot/build install --record /home/luca/modulo8/ponderada-3/build/chatbot/install.log --single-version-externally-managed
+[0.609s] running egg_info
+[0.609s] creating ../../build/chatbot/pond3.egg-info
+[0.610s] writing ../../build/chatbot/pond3.egg-info/PKG-INFO
+[0.610s] writing dependency_links to ../../build/chatbot/pond3.egg-info/dependency_links.txt
+[0.610s] writing entry points to ../../build/chatbot/pond3.egg-info/entry_points.txt
+[0.610s] writing requirements to ../../build/chatbot/pond3.egg-info/requires.txt
+[0.610s] writing top-level names to ../../build/chatbot/pond3.egg-info/top_level.txt
+[0.610s] writing manifest file '../../build/chatbot/pond3.egg-info/SOURCES.txt'
+[0.611s] reading manifest file '../../build/chatbot/pond3.egg-info/SOURCES.txt'
+[0.611s] writing manifest file '../../build/chatbot/pond3.egg-info/SOURCES.txt'
+[0.611s] running build
+[0.611s] running build_py
+[0.612s] creating /home/luca/modulo8/ponderada-3/build/chatbot/build
+[0.612s] creating /home/luca/modulo8/ponderada-3/build/chatbot/build/lib
+[0.612s] creating /home/luca/modulo8/ponderada-3/build/chatbot/build/lib/chatbot
+[0.612s] copying chatbot/__init__.py -> /home/luca/modulo8/ponderada-3/build/chatbot/build/lib/chatbot
+[0.612s] copying chatbot/chatbot.py -> /home/luca/modulo8/ponderada-3/build/chatbot/build/lib/chatbot
+[0.612s] running install
+[0.612s] running install_lib
+[0.612s] creating /home/luca/modulo8/ponderada-3/install/chatbot/lib/python3.10/site-packages/chatbot
+[0.612s] copying /home/luca/modulo8/ponderada-3/build/chatbot/build/lib/chatbot/__init__.py -> /home/luca/modulo8/ponderada-3/install/chatbot/lib/python3.10/site-packages/chatbot
+[0.612s] copying /home/luca/modulo8/ponderada-3/build/chatbot/build/lib/chatbot/chatbot.py -> /home/luca/modulo8/ponderada-3/install/chatbot/lib/python3.10/site-packages/chatbot
+[0.613s] byte-compiling /home/luca/modulo8/ponderada-3/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc
+[0.613s] byte-compiling /home/luca/modulo8/ponderada-3/install/chatbot/lib/python3.10/site-packages/chatbot/chatbot.py to chatbot.cpython-310.pyc
+[0.613s] running install_data
+[0.613s] error: can't copy 'resource/pond3': doesn't exist or not a regular file
+[0.624s] Invoked command in '/home/luca/modulo8/ponderada-3/src/chatbot' returned '1': PYTHONPATH=/home/luca/modulo8/ponderada-3/build/chatbot/prefix_override:/home/luca/modulo8/ponderada-3/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chatbot build --build-base /home/luca/modulo8/ponderada-3/build/chatbot/build install --record /home/luca/modulo8/ponderada-3/build/chatbot/install.log --single-version-externally-managed
