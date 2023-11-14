@@ -6,15 +6,15 @@ O chatbot tem como principal funcionalidade dar retorno os pedidos dos usuarios.
 
 Para compilar o pacote execte os comandos abaixo:
 
-´´´
+```
 colcon build --packages-select chatbot
 source install/local_setup.bash #se estiver usando zsh, mude para setup.zsh
-´´´
+```
 
 Para rodar o chatbot em sua maquina execute o seguinte comando:
 
-´´´
+```
 ros2 run chatbot chatbot
-´´´
+```
 
 Link do video comprovando a funcionalidade: https://drive.google.com/file/d/1ClJBlh9V3JZM3HVPm4FQbD6AKoKqJbp2/view?usp=sharing
