@@ -1,0 +1,24 @@
+[0.482s] Invoking command in '/home/luca/modulo8/ponderada-3/src/chatbot': PYTHONPATH=/home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/prefix_override:/home/luca/modulo8/ponderada-3/src/chatbot/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/chatbot build --build-base /home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/build install --record /home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/install.log --single-version-externally-managed
+[0.632s] running egg_info
+[0.632s] writing build/chatbot/chatbot.egg-info/PKG-INFO
+[0.632s] writing dependency_links to build/chatbot/chatbot.egg-info/dependency_links.txt
+[0.632s] writing entry points to build/chatbot/chatbot.egg-info/entry_points.txt
+[0.632s] writing requirements to build/chatbot/chatbot.egg-info/requires.txt
+[0.632s] writing top-level names to build/chatbot/chatbot.egg-info/top_level.txt
+[0.634s] reading manifest file 'build/chatbot/chatbot.egg-info/SOURCES.txt'
+[0.634s] writing manifest file 'build/chatbot/chatbot.egg-info/SOURCES.txt'
+[0.634s] running build
+[0.634s] running build_py
+[0.634s] copying chatbot/chatbot.py -> /home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/build/lib/chatbot
+[0.634s] running install
+[0.634s] running install_lib
+[0.635s] copying /home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/build/lib/chatbot/chatbot.py -> /home/luca/modulo8/ponderada-3/src/chatbot/install/chatbot/lib/python3.10/site-packages/chatbot
+[0.635s] byte-compiling /home/luca/modulo8/ponderada-3/src/chatbot/install/chatbot/lib/python3.10/site-packages/chatbot/chatbot.py to chatbot.cpython-310.pyc
+[0.635s] running install_data
+[0.636s] running install_egg_info
+[0.637s] removing '/home/luca/modulo8/ponderada-3/src/chatbot/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.637s] Copying build/chatbot/chatbot.egg-info to /home/luca/modulo8/ponderada-3/src/chatbot/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info
+[0.637s] running install_scripts
+[0.650s] Installing chatbot script to /home/luca/modulo8/ponderada-3/src/chatbot/install/chatbot/lib/chatbot
+[0.650s] writing list of installed files to '/home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/install.log'
+[0.667s] Invoked command in '/home/luca/modulo8/ponderada-3/src/chatbot' returned '0': PYTHONPATH=/home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/prefix_override:/home/luca/modulo8/ponderada-3/src/chatbot/install/chatbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/chatbot build --build-base /home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/build install --record /home/luca/modulo8/ponderada-3/src/chatbot/build/chatbot/install.log --single-version-externally-managed
