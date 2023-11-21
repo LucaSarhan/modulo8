@@ -1,0 +1,21 @@
+[0.600s] Invoking command in '/home/luca/modulo8/ponderada-4/src/main': PYTHONPATH=/home/luca/modulo8/ponderada-4/src/main/build/main/prefix_override:/home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/main build --build-base /home/luca/modulo8/ponderada-4/src/main/build/main/build install --record /home/luca/modulo8/ponderada-4/src/main/build/main/install.log --single-version-externally-managed
+[0.786s] running egg_info
+[0.786s] writing build/main/main.egg-info/PKG-INFO
+[0.786s] writing dependency_links to build/main/main.egg-info/dependency_links.txt
+[0.786s] writing entry points to build/main/main.egg-info/entry_points.txt
+[0.787s] writing requirements to build/main/main.egg-info/requires.txt
+[0.787s] writing top-level names to build/main/main.egg-info/top_level.txt
+[0.788s] reading manifest file 'build/main/main.egg-info/SOURCES.txt'
+[0.789s] writing manifest file 'build/main/main.egg-info/SOURCES.txt'
+[0.789s] running build
+[0.789s] running build_py
+[0.789s] running install
+[0.790s] running install_lib
+[0.790s] running install_data
+[0.791s] running install_egg_info
+[0.792s] removing '/home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info' (and everything under it)
+[0.792s] Copying build/main/main.egg-info to /home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info
+[0.793s] running install_scripts
+[0.808s] Installing main script to /home/luca/modulo8/ponderada-4/src/main/install/main/lib/main
+[0.808s] writing list of installed files to '/home/luca/modulo8/ponderada-4/src/main/build/main/install.log'
+[0.826s] Invoked command in '/home/luca/modulo8/ponderada-4/src/main' returned '0': PYTHONPATH=/home/luca/modulo8/ponderada-4/src/main/build/main/prefix_override:/home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/main build --build-base /home/luca/modulo8/ponderada-4/src/main/build/main/build install --record /home/luca/modulo8/ponderada-4/src/main/build/main/install.log --single-version-externally-managed
