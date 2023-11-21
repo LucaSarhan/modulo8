@@ -1,46 +1,21 @@
-import requests
-import json
+#! /bin/env python3
 import gradio as gr
+from langchain.llms import Ollama
 
-url = "http://localhost:11434/api/generate"
+conversation_history = []
 
-headers = {
-    'Content-Type': 'application/json',
-}
-
-history_conversation = []
-
-def response_generate(prompt):
-    history_conversation.append(prompt)
-
-    full_prompt = "\n".join(history_conversation)
-
-    data = {
-        "model": "dolphin2.2-mistral",
-        "stream": False,
-        "prompt": full_prompt,
-    }
-
-    response = requests.post(url, headers=headers, data=json.dumps(data))
-
-    if response.status_code == 200:
-        response_text = response.text
-        data = json.loads(response_text)
-        actual_response = data["response"]
-        history_conversation.append(actual_response)
-        return actual_response
-    else:
-        print("Error:", response.status_code, response.text)
-        return None
+def generate_response(prompt):
+    conversation_history.append(prompt)
+    full_prompt = "\n".join(conversation_history)
+    opa = Ollama(base_url='http://localhost:11434', model="dolphin2.2-mistral")
+    return opa(full_prompt)
 
 def main():
     iface = gr.Interface(
-        fn=response_generate,
+        fn=generate_response,
         inputs=gr.Textbox(lines=2, placeholder="Enter your prompt here..."),
         outputs="text"
     )
-
     iface.launch()
-
 if __name__ == "__main__":
     main()

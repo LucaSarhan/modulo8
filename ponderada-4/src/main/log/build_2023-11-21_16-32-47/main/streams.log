@@ -1,0 +1,24 @@
+[0.545s] Invoking command in '/home/luca/modulo8/ponderada-4/src/main': PYTHONPATH=/home/luca/modulo8/ponderada-4/src/main/build/main/prefix_override:/home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/main build --build-base /home/luca/modulo8/ponderada-4/src/main/build/main/build install --record /home/luca/modulo8/ponderada-4/src/main/build/main/install.log --single-version-externally-managed
+[0.718s] running egg_info
+[0.718s] writing build/main/main.egg-info/PKG-INFO
+[0.718s] writing dependency_links to build/main/main.egg-info/dependency_links.txt
+[0.719s] writing entry points to build/main/main.egg-info/entry_points.txt
+[0.719s] writing requirements to build/main/main.egg-info/requires.txt
+[0.719s] writing top-level names to build/main/main.egg-info/top_level.txt
+[0.720s] reading manifest file 'build/main/main.egg-info/SOURCES.txt'
+[0.720s] writing manifest file 'build/main/main.egg-info/SOURCES.txt'
+[0.720s] running build
+[0.720s] running build_py
+[0.720s] copying main/integration.py -> /home/luca/modulo8/ponderada-4/src/main/build/main/build/lib/main
+[0.721s] running install
+[0.721s] running install_lib
+[0.721s] copying /home/luca/modulo8/ponderada-4/src/main/build/main/build/lib/main/integration.py -> /home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages/main
+[0.722s] byte-compiling /home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages/main/integration.py to integration.cpython-310.pyc
+[0.722s] running install_data
+[0.722s] running install_egg_info
+[0.723s] removing '/home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info' (and everything under it)
+[0.723s] Copying build/main/main.egg-info to /home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info
+[0.724s] running install_scripts
+[0.738s] Installing main script to /home/luca/modulo8/ponderada-4/src/main/install/main/lib/main
+[0.738s] writing list of installed files to '/home/luca/modulo8/ponderada-4/src/main/build/main/install.log'
+[0.756s] Invoked command in '/home/luca/modulo8/ponderada-4/src/main' returned '0': PYTHONPATH=/home/luca/modulo8/ponderada-4/src/main/build/main/prefix_override:/home/luca/modulo8/ponderada-4/src/main/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/main build --build-base /home/luca/modulo8/ponderada-4/src/main/build/main/build install --record /home/luca/modulo8/ponderada-4/src/main/build/main/install.log --single-version-externally-managed

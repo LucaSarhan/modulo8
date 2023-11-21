@@ -1,0 +1,37 @@
+[0.996s] Invoking command in '/home/luca/modulo8/ponderada-4/src/main': PYTHONPATH=/home/luca/modulo8/build/main/prefix_override:/home/luca/modulo8/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/main build --build-base /home/luca/modulo8/build/main/build install --record /home/luca/modulo8/build/main/install.log --single-version-externally-managed
+[1.169s] running egg_info
+[1.170s] creating ../../../build/main/main.egg-info
+[1.170s] writing ../../../build/main/main.egg-info/PKG-INFO
+[1.171s] writing dependency_links to ../../../build/main/main.egg-info/dependency_links.txt
+[1.171s] writing entry points to ../../../build/main/main.egg-info/entry_points.txt
+[1.171s] writing requirements to ../../../build/main/main.egg-info/requires.txt
+[1.171s] writing top-level names to ../../../build/main/main.egg-info/top_level.txt
+[1.171s] writing manifest file '../../../build/main/main.egg-info/SOURCES.txt'
+[1.172s] reading manifest file '../../../build/main/main.egg-info/SOURCES.txt'
+[1.173s] writing manifest file '../../../build/main/main.egg-info/SOURCES.txt'
+[1.173s] running build
+[1.173s] running build_py
+[1.173s] creating /home/luca/modulo8/build/main/build
+[1.174s] creating /home/luca/modulo8/build/main/build/lib
+[1.174s] creating /home/luca/modulo8/build/main/build/lib/main
+[1.174s] copying main/__init__.py -> /home/luca/modulo8/build/main/build/lib/main
+[1.174s] copying main/integration.py -> /home/luca/modulo8/build/main/build/lib/main
+[1.174s] running install
+[1.175s] running install_lib
+[1.175s] creating /home/luca/modulo8/install/main/lib/python3.10/site-packages/main
+[1.175s] copying /home/luca/modulo8/build/main/build/lib/main/__init__.py -> /home/luca/modulo8/install/main/lib/python3.10/site-packages/main
+[1.175s] copying /home/luca/modulo8/build/main/build/lib/main/integration.py -> /home/luca/modulo8/install/main/lib/python3.10/site-packages/main
+[1.176s] byte-compiling /home/luca/modulo8/install/main/lib/python3.10/site-packages/main/__init__.py to __init__.cpython-310.pyc
+[1.176s] byte-compiling /home/luca/modulo8/install/main/lib/python3.10/site-packages/main/integration.py to integration.cpython-310.pyc
+[1.176s] running install_data
+[1.177s] creating /home/luca/modulo8/install/main/share/ament_index
+[1.177s] creating /home/luca/modulo8/install/main/share/ament_index/resource_index
+[1.177s] creating /home/luca/modulo8/install/main/share/ament_index/resource_index/packages
+[1.177s] copying resource/main -> /home/luca/modulo8/install/main/share/ament_index/resource_index/packages
+[1.177s] copying package.xml -> /home/luca/modulo8/install/main/share/main
+[1.177s] running install_egg_info
+[1.178s] Copying ../../../build/main/main.egg-info to /home/luca/modulo8/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info
+[1.179s] running install_scripts
+[1.193s] Installing main script to /home/luca/modulo8/install/main/lib/main
+[1.193s] writing list of installed files to '/home/luca/modulo8/build/main/install.log'
+[1.250s] Invoked command in '/home/luca/modulo8/ponderada-4/src/main' returned '0': PYTHONPATH=/home/luca/modulo8/build/main/prefix_override:/home/luca/modulo8/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/main build --build-base /home/luca/modulo8/build/main/build install --record /home/luca/modulo8/build/main/install.log --single-version-externally-managed
