@@ -6,8 +6,8 @@ Essa aplicação foi feita para interpretar questôes sobre segurança de ambien
 
 **Gradio:** é responsavel pela interface gráfica
 **Ollama:** é responsavel pelo modelo utilizado para fazer as respostas
-**Langchain:**
-**API local:**
+**Langchain:** é responsavel por usar a biblioteca cliente Ollama para se conectar a um servidor LLM executando o modelo llama2
+**API local:** é responsavel por fazer requisição pro modelo
 
 # Instruções de execução
 
