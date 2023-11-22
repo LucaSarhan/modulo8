@@ -28,10 +28,19 @@ ollama run llama2
 Vai ser necessario clonar o repositório usando o seguinte comando para clonar:
 
 ```
-git clone 
+git clone https://github.com/LucaSarhan/modulo8.git
 ```
 
+Depois vai ser necesário se locomover para o local do arquivo relevante
 
+```
+cd modulo8/ponderada-4/src/main/main
+```
 
+Feito isso segue o comando para executar a aplicação
+
+```
+python3 integration.py
+```
 
 Link do video comprovando o funcionamento: https://drive.google.com/file/d/1EAZIHlE3FcrM2d1HTHi7Pbp_d1Bb3yA2/view?usp=sharing
