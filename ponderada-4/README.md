@@ -16,9 +16,22 @@ Caso não tenha instalado utlize esses comandos para instalar o gradio, langchai
 ```
 pip install langchain
 pip install gradio
-pip install ollama
+curl https://ollama.ai/install.sh | sh
 ```
 
-Vai ser necessario clonar o repositório usando o seguinte comando para
+Para baixar o modelo necesário basta rodar o comando a seguir:
+
+```
+ollama run llama2
+```
+
+Vai ser necessario clonar o repositório usando o seguinte comando para clonar:
+
+```
+git clone 
+```
+
+
+
 
 Link do video comprovando o funcionamento: https://drive.google.com/file/d/1EAZIHlE3FcrM2d1HTHi7Pbp_d1Bb3yA2/view?usp=sharing
