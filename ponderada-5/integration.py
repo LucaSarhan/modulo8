@@ -1,14 +1,16 @@
 import gradio as gr
 from langchain.llms import Ollama
 import requests
+from bs4 import BeautifulSoup
 
-conversation_history = ["Answer prompts like you are a safety expert for industrial environments"]
+conversation_history = ["Answer prompts like you are a safety expert for industrial environments."]
 
 def obter_texto_do_link(link):
     try:
         response = requests.get(link)
         response.raise_for_status()
-        texto = response.text
+        soup = BeautifulSoup(response.text, 'html.parser')
+        texto = soup.get_text(separator='\n', strip=True)
         return texto
     except requests.exceptions.RequestException as e:
         return f"Erro ao obter conteúdo do link: {e}"
@@ -17,11 +19,14 @@ def generate_response(prompt, link_context):
     contexto = obter_texto_do_link(link_context)
     if "Erro" in contexto:
         return contexto
+    
+    print(contexto)
 
-    conversation_history.append(prompt)
+    conversation_history.append("Consider the following text as context: "+ contexto)
+    conversation_history.append("Question: " + prompt)
     full_prompt = "\n".join(conversation_history)
     
-    opa = Ollama(base_url='http://localhost:11434', model="llama2")
+    opa = Ollama(base_url='http://localhost:11434', model="orca-mini")
     resposta = opa(full_prompt)
     
     return resposta
