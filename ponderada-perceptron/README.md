@@ -16,4 +16,4 @@ Segue o seguinte comando para entrar no local:
 cd modulo8/ponderada-percptron
 ```
 
-Link comprovando o funcionamento da atividade: 
+Link comprovando o funcionamento da atividade: https://drive.google.com/file/d/1N8mSUqU7RpSs67Oii-UC427-SpdGkUoy/view?usp=sharing
