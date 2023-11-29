@@ -1,7 +1,7 @@
 # Atividade ponderada 5
 
 Esse projeto visa criar um chatbot com base em um LLM usando uma API para fornecer informações sobre segurança em um ambiente industrial. 
-O objetivo é fornecer informações completas e precisas sobre normas de segurança e comportamento dos funcionários que mitigam riscos à sua segurança. 
+O objetivo é fornecer informações completas e precisas sobre normas de segurança e comportamento dos funcionários que mitigam riscos à sua segurança. Essa aplicação agora consegue acessar links da internet para usar como contexto para ajudar responder perguntas.
 Essa aplicação foi feita para analisar questões sobre segurança no ambiente industrial, ou seja, responder perguntas sobre os equipamentos de segurança do local, bem como o comportamento humano dentro desse ambiente etc... A aplicação funciona.
 
 **Gradio:** é responsável pela interface gráfica.
@@ -46,4 +46,5 @@ Feito isso, segue o comando para executar a aplicação:
 python3 integration.py
 ```
 
+Para essa ponderada eu peguei o link que você indicou no enunciado e usei para indicar o contexto.
 Link do video comprovando o funcionamento: https://drive.google.com/file/d/1DbS2LygapY8CL68xibomaXXvPfj10o0z/view?usp=sharing
