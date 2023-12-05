@@ -17,4 +17,5 @@ python3 run modelo.py
 ´´´
 
 Aqui segue o link comprovando o funcionamento da aplicação:
+
 https://drive.google.com/file/d/1WaJolCcX2Ggy1X6cBP_ACVHxSklPOUUT/view?usp=sharing
