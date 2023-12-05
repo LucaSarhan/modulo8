@@ -6,15 +6,15 @@ A aplicação fo desenvolvida para o reconhecimento de numeros em imagens atrav�
 
 Para usar a aplicação é necesário entrar no diretório usando o seguinte commando:
 
-´´´
+```
 cd modulo8/ponderada7
-´´´
+```
 
 Para rodar a aplicação basta rodar o seguinte comando:
 
-´´´
+```
 python3 run modelo.py
-´´´
+```
 
 Aqui segue o link comprovando o funcionamento da aplicação:
 
