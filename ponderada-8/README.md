@@ -27,3 +27,6 @@ Para rodar a aplicação execute o seguinte comando:
 ```
 python3 run main.py
 ```
+
+Para verificar o funcionamento da atividade segue o link do video:
+https://drive.google.com/file/d/1lyHqYyDHsn1bSAxzknINRvZamlQufisc/view?usp=sharing
