@@ -6,7 +6,7 @@ A aplicação foi projetada para funcionar no terminal e receber uma fala do usu
 vai ser necesário clonar o github no seu ambiente:
 
 ```
-git clone 
+git clone https://github.com/LucaSarhan/modulo8.git
 ```
 
 Para entrar no diretório do projeto segue o comando:
