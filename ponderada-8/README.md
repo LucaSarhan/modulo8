@@ -5,25 +5,25 @@ A aplicação foi projetada para funcionar no terminal e receber uma fala do usu
 
 vai ser necesário clonar o github no seu ambiente:
 
-´´´
+```
 git clone 
-´´´
+```
 
 Para entrar no diretório do projeto segue o comando:
 
-´´´
-cd modulo8/ponderada-8
-´´´
+```
+cd modulo8/ponderada8
+```
 
 Caso não tenho é necesário instalar as seguintes depencias:
 
-´´´
+```
 pip install langchain
 pip install python-dotenv
-´´´
+```
 
 Para rodar a aplicação execute o seguinte comando:
 
-´´´
+```
 python3 run main.py
-´´´
+```
